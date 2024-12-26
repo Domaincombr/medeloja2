@@ -1,0 +1,653 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+overflow-x: hidden;
+
+}
+
+header{
+background-color: #292929;
+width: 100vw;
+height: 60px;
+display: flex;
+justify-content: end;
+align-items: center;
+
+}
+
+
+header a{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+
+
+header a:hover{ 
+    transform:scale(1.1);
+    color: #ff4500;
+}
+
+main{
+    width: 100vw;
+    height: 30000px;
+    /* border: 2px solid red; */
+
+}
+
+.telageral{
+    width: 100%;
+    height: 680px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.fototenis{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-image: url(../img/tenisfundo.jpg);
+    background-size: cover;
+
+    border:3px solid #fff;
+    background-color: #fff;
+    border-radius: 30px;
+    right: 190px;
+}
+.quadrotxt{
+    position: relative;
+    width: 30%;
+    min-height: 400px;
+    height: auto;
+    border:3px solid #fff;
+    left: 80px;
+    top: 0px;
+
+
+}
+
+.titlie{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff4500;
+}
+
+.txt{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    /* border: 2px solid red; */
+    height: auto;
+    font-size:21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marcas{
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mc{
+    width: 20%;
+    height: 50px;
+    background-color: #000;
+}
+
+
+.tellcaerx{
+    position: relative;
+    width: 70%;
+    min-height: 300px;
+    height: auto;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-50%);
+    left: 50%;
+    top: 90px;
+}
+
+
+.card{
+    width: 30%;
+    height: 400px;
+    border: 3px solid #ff4500;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #ff4500;
+}
+
+.carstitle{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4500;
+}
+
+
+.carstxt{
+    width: 100%;
+    height: auto;
+    font-size:19px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 10px;
+}
+
+.conteinertenis{
+    position: relative;
+    top:  120px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tenisquadro{
+    width: 30%;
+    height: 300px;
+    background-color: red;
+    border-radius: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.vitrine{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+}
+
+.ftscalcados{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 450px;
+    height: 300px;
+    background-color: #ff4500;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nmproduto{
+    font-size: 20px;
+    width: 100%;
+    color: #ff4500;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preco{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8px;
+}
+.tellanu{
+    position: relative;
+    top: 260px;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ff4500;
+}
+
+.ftsanu{
+    width: 400px;
+    height: 400px;
+    background-color: #292929;
+}
+
+.txtanu{
+    position: relative;
+    right: 50px;
+    width: 60%;
+    height: 400px;
+    padding: 10px;
+
+    /* border: 2px solid red; */
+}
+
+.divmenucelular{
+display: none;
+}
+
+.divlinks{
+display: none;
+}
+.berlateral{
+ display: none;
+}
+.btvoltar{
+    display: none;
+}
+@media (min-width:320px) and (max-width:640px){
+    header{
+        background-color: #292929;
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        
+        }
+        
+        
+        header a{
+            color: #ffff;
+            font-size: 20px;
+            font-weight: bolder;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: none;
+            transition: transform 0.5s;
+        }
+        
+        
+        header a:hover{ 
+            transform:scale(1.1);
+            color: orangered;
+        }
+        
+        main{
+            width: 100vw;
+            height: 30000px;
+            /* border: 2px solid red; */
+        
+        }
+        
+        .telageral{
+            width: 100%;
+            height:auto;
+            /* border: 2px solid blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #fff;
+        }
+        .fototenis{
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-image: url(../img/tenisfundo.jpg);
+            background-size: cover;
+            margin-top: 180px;
+            border:3px solid #fff;
+            background-color: #fff;
+            border-radius: 30px;
+            right: 0px;
+        }
+        .quadrotxt{
+            position: relative;
+            width: 100%;
+            min-height: 400px;
+            height: auto;
+            border:3px solid #fff;
+            left: 0px;
+            top: 0px;
+        
+        
+        }
+        
+        .titlie{
+            width: 100%;
+            /* border: 2px solid red; */
+            height: auto;
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ff4500;
+        }
+        
+        .txt{
+            position: relative;
+            top: 40px;
+            width: 100%;
+            /* border: 2px solid red; */
+            height: auto;
+            font-size:21px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .marcas{
+            position: relative;
+            top: 70px;
+            width: 100%;
+            height: auto;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        
+        .mc{
+            width: 20%;
+            height: 50px;
+            background-color: #000;
+        }
+
+        
+.tellcaerx{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-50%);
+    left: 50%;
+    top: 90px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+
+.card{
+    min-width: 70%;
+    height: 400px;
+    /* border: 3px solid green; */
+    margin-left: 30px;
+}
+
+.carstitle{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4500;
+}
+
+
+.carstxt{
+    width: 100%;
+    height: auto;
+    font-size:19px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 10px;
+}
+
+
+.conteinertenis{
+    position: relative;
+    top:  120px;
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.tenisquadro{
+    width: 90%;
+    height: 170px;
+    background-color: red;
+    border-radius: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+        
+
+
+.vitrine{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+}
+
+.ftscalcados{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width:290px;
+    height: 280px;
+    background-color: #ff4500;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nmproduto{
+    font-size: 20px;
+    color: #ff4500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 6px;
+}
+.preco{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8px;
+}
+
+.tellanu{
+    position: relative;
+    top: 260px;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    flex-direction: column;
+}
+
+.ftsanu{
+    width: 100%;
+    height: 400px;
+    background-color: #292929;
+}
+
+.txtanu{
+    position: relative;
+    right: 0px;
+    width: 90%;
+    height: 400px;
+    padding: 10px;
+
+    /* border: 2px solid red; */
+}
+
+.divmenucelular{
+    position: absolute;
+    left: 10px;
+    /* border: 2px solid #fff; */
+  
+    color: #ff4500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.berlateral{
+    position: absolute;
+    width: 80%;
+    height: 640px;
+    background-color: #ff4500;
+    top: 0px;
+    left: -9999px;
+    z-index: 666;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.berlateralon{
+    position: absolute;
+    width: 80%;
+    height: 640px;
+    background-color: #ff4500;
+    top: 0px;
+    left: 0px;
+    z-index: 666;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    animation: berlateralon 0.4s;
+}
+
+@keyframes  berlateralon {
+    from{
+        left: -9999px;
+    }
+
+    to{
+        left: 0px;
+    }
+}
+.berlateraloff{
+    position: absolute;
+    width: 80%;
+    height: 640px;
+    background-color: #ff4500;
+    top: 0px;
+    left: -9999px;
+    z-index: 666;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    animation: berlateraloff 0.4s;
+}
+
+@keyframes  berlateraloff {
+    from{
+        left: 0px;
+    }
+
+    to{
+        left: -9999px;
+    }
+}
+
+.divlinks{
+    position: relative;
+    top: 120px;
+    width: 50%;
+    padding-bottom: 10px;
+    height: auto;
+    border-bottom:4px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 888;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.btvoltar{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 110%;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%);
+    color: #ff4500;
+}
+}

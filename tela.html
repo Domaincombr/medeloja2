@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tela.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+  
+    <main>
+    
+        <div class="telainfo">
+        <div class="tellfts">
+            <img src="/img/pexels-madvortex-9252069.jpg" alt="" width="450px">
+        </div>
+
+        <div class="quadrodepedido">
+
+            <div class="telaletragem">
+                <div class="nmproduto">TENIS NIKE</div>
+                <div class="valorproduto">RS500,00</div>
+                <div class="descricao">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae aut accusamus, officia error voluptates asperiores tempora aliquid quidem. Distinctio autem sed similique ipsam aut quaerat delectus deserunt ab voluptatem quod?
+                </div>
+              </div>
+              <label for="inputnu" class="labelcss">Quantidade:</label>
+              <input type="number" min="1" max="10" value="1" id="inputnu" required/>
+              <label for="selectcss" class="labelcss">Cor:</label>
+              <select id="selectcss" required>
+                <option value="vermelho">VERMELHO</option>
+                <option value="azul">AZUL</option>
+                <option value="verde">VERDE</option>
+                <option value="amarelo">AMARELO</option>
+                <option value="roxo">ROXO</option>
+              </select>
+              
+              <button class="btcomprar" onclick="comprar()">COMPRE AGORA</button>
+              
+              <div id="valorqualculado">Valor total: R$ 0,00</div>
+              
+        </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="./js/tela.js"></script>
+</body>
+</html>
